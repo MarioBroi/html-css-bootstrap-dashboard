@@ -1,3 +1,40 @@
+/* #region Common */
+
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+:root {
+    --boostrap-d-header-bg: rgba(27, 114, 232, 1);
+    --boostrap-d-site-bg: rgba(248, 249, 250, 1);
+    --boostrap-d-sticker-done: rgba(25, 135, 84, 1);
+    --boostrap-d-sticker-process: rgba(255, 193, 7, 1);
+    --boostrap-d-sticker-failder: rgba(220, 53, 69, 1);
+    --boostrap-d-header-icon: rgba(255, 143, 0, 1);
+}
+
+/* #endregion Common */
+
+/* #region Utility */
+
+
+
+/* #endregion Utility */
+
+/* #region Header */
+
+
+
+/* #endregion Header */
+
+/* #region Main */
+
+
+
+/* #endregion Main */
+
+/* #region Footer */
+
+
+
+/* #endregion Footer */
