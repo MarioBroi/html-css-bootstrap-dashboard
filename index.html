@@ -25,46 +25,61 @@
 <body>
 
     <header class="site-header">
+
         <nav class="navbar">
 
-            <div class="nav-logo">
-                <img src="./assets/img/logo.svg" alt="">
-            </div>
-            <!-- /.nav-logo -->
+            <div class="container-fluid justify-content-between">
 
-            <div class="nav-text">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                Prova a cercare: Lezioni di Laravel
-            </div>
-            <!-- /.nav-text -->
-
-            <div class="nav-icons">
-                <a href="">
-                  <i class="fa-solid fa-list-ul"></i>  
+                <a class="navbar-logo mx-2">
+                    <img class=" d-lg-none small_logo" src="./assets/img/mobile-logo.png" alt="">
+                    <img class="d-none d-lg-block" src="./assets/img/logo.svg" alt="">
                 </a>
-                <a href="">
-                    <i class="fa-solid fa-list-ul"></i>  
-                  </a>
-                  <a href="">
-                    <i class="fa-solid fa-list-ul"></i>  
-                  </a>
-                  <a href="">
-                    <i class="fa-solid fa-list-ul"></i>  
-                  </a>
+                <!-- /.logo -->
+
+                <form class="d-flex align-items-center flex-grow-1 bg-body-secondary text-black px-3 rounded-3"
+                    role="search">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input class="form-control me-2 border-0 bg-body-secondary text-black" type="search"
+                        placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Search">
+                </form>
+                <!-- /.input -->
+
+                <a class="text-decoration-none text-secondary px-2" href="#">
+                    <i class="d-none d-md-block fa-solid fa-list-ul"></i>
+                </a>
+
+                <a class="text-decoration-none text-secondary px-2" href="#">
+                    <i class="d-none d-md-block fa-solid fa-circle-question"></i>
+                </a>
+
+                <a class="text-decoration-none text-secondary px-2" href="#">
+                    <i class="d-none d-md-block fa-solid fa-ellipsis-vertical"></i>
+                </a>
+                <!-- /.icons -->
+
+                <div class="dropdown mx-2">
+                    <button class="btn" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bell bell"></i>
+                    </button>
+                </div>
+                <!-- /.dropdown -->
+
             </div>
-            <!-- /.nav-icons -->
+            <!-- /.container -->
 
         </nav>
+        <!-- /.navbar -->
+
     </header>
     <!-- /.site-header -->
 
     <main class="site-main">
-        Lorem.
+
     </main>
     <!-- /.site-main -->
 
     <footer class="site-footer">
-        Lorem.
+
     </footer>
     <!-- /.site-footer -->
 

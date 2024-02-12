@@ -5,7 +5,7 @@ body {
 }
 
 :root {
-    --bootstrap-d-header-bg: rgba(27, 114, 232, 1);
+    --bootstrap-d-main-top-bg: rgba(27, 114, 232, 1);
     --bootstrap-d-site-bg: rgba(248, 249, 250, 1);
     --bootstrap-d-sticker-done: rgba(25, 135, 84, 1);
     --bootstrap-d-sticker-process: rgba(255, 193, 7, 1);
@@ -24,12 +24,11 @@ body {
 
 /* #region Header */
 
-.site-header a {
-    text-decoration: none;
-    color: var(--bootstrap-d-header-icons);
+.small_logo {
+    width: 45px;
 }
 
-.site-header a:last-child {
+.bell {
     color: var(--bootstrap-d-header-last-icon);
 }
 
