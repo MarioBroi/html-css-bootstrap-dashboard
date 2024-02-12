@@ -36,12 +36,21 @@ body {
 /* #endregion Header */
 
 /* #region Main */
+.site-main {
+    display: flex;
+}
 
 .side-bar {
     height: calc(100vh - 54px);
     width: 10%;
     background-image: url(../img/sidebar-bg.png);
     background-color: var(--bootstrap-d-side-bar);
+}
+
+.top-main {
+    color: white;
+    height: 100%;
+    background-color: var(--bootstrap-d-main-top-bg);
 }
 
 /* #endregion Main */
