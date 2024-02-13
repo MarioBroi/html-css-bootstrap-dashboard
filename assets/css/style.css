@@ -1,6 +1,8 @@
 /* #region Common */
 
 body {
+    height: 100vh;
+    overflow: hidden;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -51,6 +53,15 @@ body {
     color: white;
     height: 120px;
     background-color: var(--bootstrap-d-main-top-bg);
+}
+
+#scroll {
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+#grow {
+    flex-grow: 2;
 }
 
 /* #endregion Main */
