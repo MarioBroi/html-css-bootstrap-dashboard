@@ -64,4 +64,15 @@ body {
     flex-grow: 2;
 }
 
+.content-main h3 {
+    border-bottom: 1px solid lightgray;
+    background-color: var(--bootstrap-d-site-bg);
+}
+
 /* #endregion Main */
+
+@media screen and (max-width: 576px) {
+   #hide-info {
+    display: none;
+   }
+}
